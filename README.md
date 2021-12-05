@@ -1,8 +1,5 @@
-# TaylorNet
-Official implementation for Neurocomputing paper:  Taylor saves for later: disentanglement  for video prediction using Taylor representation
-
-**Taylor saves for later: disentanglement  for video prediction using Taylor representation**
-,by Ting Pan, Zhuqing Jiang, Jianan Han, Shiping Wen, Aidong Men, Haiying Wang.
+# Taylor saves for later: disentanglement  for video prediction using Taylor representation
+Official implementation for Neurocomputing paper:  Taylor saves for later: disentanglement  for video prediction using Taylor representation, by Ting Pan, Zhuqing Jiang, Jianan Han, Shiping Wen, Aidong Men, Haiying Wang.
 
 # Datasets
 Please  move them to the ./dataset.
@@ -21,20 +18,8 @@ Please  move them to the ./weights.
 
 **password**: iedf
 
-
-# Training
-train_mmnist.py
-
-train_taxibj.py
-
-train_human.py
-
-# Testing
-test_mmnist.py
-
-train_taxibj.py
-
-train_human.py
+# Abstract
+Video prediction is a challenging task with wide application prospects in meteorology and robot systems. Existing works fail to trade off short-term and long-term prediction performances and extract robust latent dynamics laws in video frames. We propose a two-branch seq-to-seq deep model to disentangle the Taylor feature and the residual feature in video frames by a novel recurrent prediction module (TaylorCell) and residual module, based on a novel principle for feature separation. TaylorCell can expand the video frames' high-dimensional features into the finite Taylor series to describe the latent laws. In TaylorCell, we propose the Taylor prediction unit (TPU) and the memory correction unit (MCU). TPU employs the first input frame's derivative information to predict the future frames, avoiding error accumulation. MCU distills all past frames' information to correct the predicted Taylor feature from TPU. Correspondingly, the residual module extracts the residual feature complementary to the Taylor feature. Due to the characteristic of the Taylor series, our model works better on datasets with short-range spatial dependencies and stable dynamics. On three generalist datasets (Moving MNIST, TaxiBJ, Human 3.6), our model reaches and outperforms the state-of-the-art model in the short-term and long-term forecast, respectively. Ablation experiments demonstrate the contributions of each module in our model.
 
 # Citation
 Please cite the following paper if you find this repository useful.
