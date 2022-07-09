@@ -24,11 +24,15 @@ Video prediction is a challenging task with wide application prospects in meteor
 # Citation
 Please cite the following paper if you find this repository useful.
 
-    @article{PAN2021,
-    title = {Taylor saves for later: disentanglement for video prediction using Taylor representation},
-    journal = {Neurocomputing},
-    year = {2021},
-    issn = {0925-2312},
-    author = {Ting Pan and Zhuqing Jiang and Jianan Han and Shiping Wen and Aidong Men and Haiying Wang},
-    }
+    @article{PAN2022166,
+title = {Taylor saves for later: Disentanglement for video prediction using Taylor representation},
+journal = {Neurocomputing},
+volume = {472},
+pages = {166-174},
+year = {2022},
+issn = {0925-2312},
+doi = {https://doi.org/10.1016/j.neucom.2021.11.021},
+url = {https://www.sciencedirect.com/science/article/pii/S0925231221016957},
+author = {Ting Pan and Zhuqing Jiang and Jianan Han and Shiping Wen and Aidong Men and Haiying Wang},
+}
 
