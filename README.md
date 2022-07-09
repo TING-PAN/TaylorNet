@@ -1,6 +1,10 @@
 # Taylor saves for later: disentanglement  for video prediction using Taylor representation
 Official implementation for Neurocomputing paper:  Taylor saves for later: disentanglement  for video prediction using Taylor representation, by Ting Pan, Zhuqing Jiang, Jianan Han, Shiping Wen, Aidong Men, Haiying Wang.
 
+# Requirements
+Python 3.6
+pytorch 1.3
+
 # Datasets
 Please  move them to the ./dataset.
 
